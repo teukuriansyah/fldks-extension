@@ -22,8 +22,7 @@ Leverage the speed of Vite to scaffold your React applications.
 
 ## 📽️ Demo
 
-![Demo GIF](https://raw.githubusercontent.com/username/fldks-extension/main/assets/demo.gif)
-> *Tip: Record a 10-second GIF of your extension in action and host it on GitHub to display it here.*
+![Demo fldks](https://raw.githubusercontent.com/teukuriansyah/fldks-extension/refs/heads/main/assets/lv_0_20260124174958-ezgif.com-video-to-gif-converter.gif)
 
 ---
 

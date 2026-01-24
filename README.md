@@ -1,65 +1,57 @@
-# fldks-extension README
+# FLDKS Extension 🚀
 
-This is the README for your extension "fldks-extension". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+**FLDKS Extension** is a powerful VS Code productivity tool designed to eliminate the repetitive task of setting up project structures. Initialize your Backend or Frontend environment with just a single click.
 
 ---
 
-## Working with Markdown
+## ✨ Features
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+### 🟢 One-Click Backend (Express.js)
+Generate a clean, production-ready Express.js boilerplate instantly. 
+- Automatic `package.json` creation.
+- Basic folder structure (Routes, Controllers, Models).
+- Pre-configured entry point.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+### 🔵 One-Click Frontend (React + Vite)
+Leverage the speed of Vite to scaffold your React applications.
+- Blazing fast initialization.
+- Modern project structure.
+- Essential dependencies ready to install.
 
-## For more information
+---
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 📽️ Demo
 
-**Enjoy!**
+![Demo GIF](https://raw.githubusercontent.com/username/fldks-extension/main/assets/demo.gif)
+> *Tip: Record a 10-second GIF of your extension in action and host it on GitHub to display it here.*
+
+---
+
+## 🚀 How to Use
+
+1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
+2. Type **"fldks"**.
+3. Select your desired setup:
+   - `Backend: Create Express Backend`
+   - `Frontend: Create React Vite Frontend`
+4. Follow the prompt to name your project and you're good to go!
+
+---
+
+## 🛠 Requirements
+
+- **Node.js** (v16.0 or higher recommended)
+- **npm**, **yarn**, or **pnpm** installed globally.
+
+---
+
+## 📝 Changelog
+
+### 1.0.0
+- Initial release of fldks extension.
+- Added Express.js scaffolding support.
+- Added React Vite scaffolding support.
+
+---
+
+**Happy Coding with fldks!**

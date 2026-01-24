@@ -4,6 +4,8 @@
   "description": "Extension for make a project with simple tricks",
   "version": "0.0.1",
   "type": "module",
+  "icon": "./assets/icon.png",
+  "publisher": "riansyahkarim",
   "engines": {
     "vscode": "^1.108.1"
   },

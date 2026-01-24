@@ -3,7 +3,6 @@
 import * as vscode from 'vscode';
 import { frontendChoose } from './controller/frontend.js';
 import { backendChoose } from './controller/backend.js';
-import { mobileChoose } from './controller/mobile.js';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -23,7 +22,7 @@ function activate(context) {
 	const disposable = vscode.commands.registerCommand('fldks-extension.fldksExtension', async function () {
 		// The code you place here will be executed every time your command is executed
 
-		const choices = ['Frontend', 'Backend', 'Mobile']
+		const choices = ['Frontend', 'Backend'];
 
 		const choice = await vscode.window.showQuickPick(choices,{
 			placeHolder:"Select your project"
@@ -33,8 +32,6 @@ function activate(context) {
 			frontendChoose();
 		} else if (choice === 'Backend') {
 			await backendChoose();
-		} else if (choice === 'Mobile') {
-			mobileChoose();
 		}
 	});
 

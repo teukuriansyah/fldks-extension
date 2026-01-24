@@ -95,23 +95,23 @@ export async function mobileChoose() {
             { 
                 type: 'file', 
                 path: 'README.md', 
-                content: "# Welcome to your Expo app 👋\n\nThis is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).\n\n## Get started\n\n1. Install dependencies\n\n   ```bash\n   npm install\n   ```\n\n2. Start the app\n\n   ```bash\n   npx expo start\n   ```\n\nIn the output, you'll find options to open the app in a\n\n- [development build](https://docs.expo.dev/develop/development-builds/introduction/)\n- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)\n- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)\n- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo\n\nYou can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).\n\n## Get a fresh project\n\nWhen you're ready, run:\n\n```bash\nnpm run reset-project\n```\n\nThis command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.\n\n## Learn more\n\nTo learn more about developing your project with Expo, look at the following resources:\n\n- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).\n- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.\n\n## Join the community\n\nJoin our community of developers creating universal apps.\n\n- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.\n- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.";
+                content: "# Welcome to your Expo app 👋\n\nThis is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).\n\n## Get started\n\n1. Install dependencies\n\n   ```bash\n   npm install\n   ```\n\n2. Start the app\n\n   ```bash\n   npx expo start\n   ```\n\nIn the output, you'll find options to open the app in a\n\n- [development build](https://docs.expo.dev/develop/development-builds/introduction/)\n- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)\n- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)\n- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo\n\nYou can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).\n\n## Get a fresh project\n\nWhen you're ready, run:\n\n```bash\nnpm run reset-project\n```\n\nThis command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.\n\n## Learn more\n\nTo learn more about developing your project with Expo, look at the following resources:\n\n- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).\n- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.\n\n## Join the community\n\nJoin our community of developers creating universal apps.\n\n- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.\n- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions."
             },
             { 
                 type: 'file', 
                 path: 'eslint.config.js', 
-                content: "//https://docs.expo.dev/guides/using-eslint/\nconst { defineConfig } = require('eslint/config');\nconst expoConfig = require('eslint-config-expo/flat');\n\nmodule.exports = defineConfig([\n  expoConfig,\n  {\n    ignores: ['dist/*'],\n  },\n]);";
+                content: "//https://docs.expo.dev/guides/using-eslint/\nconst { defineConfig } = require('eslint/config');\nconst expoConfig = require('eslint-config-expo/flat');\n\nmodule.exports = defineConfig([\n  expoConfig,\n  {\n    ignores: ['dist/*'],\n  },\n]);"
             },
             { 
                 type: 'file', 
                 path: 'expo-env.d.ts', 
-                content: "/// <reference types=\"expo/types\" />\n\n// NOTE: This file should not be edited and should be in your git ignore";
+                content: "/// <reference types=\"expo/types\" />\n\n// NOTE: This file should not be edited and should be in your git ignore"
             },
             { 
                 type: 'file', 
                 path: 'app.json', 
                 content:"{\n  \"expo\": {\n    \"name\": \"expo-on-replit\",\n    \"slug\": \"expo-on-replit\",\n    \"version\": \"1.0.0\",\n    \"orientation\": \"portrait\",\n    \"icon\": \"./assets/images/icon.png\",\n    \"scheme\": \"myapp\",\n    \"userInterfaceStyle\": \"automatic\",\n    \"newArchEnabled\": true,\n    \"ios\": {\n      \"supportsTablet\": true\n    },\n    \"android\": {\n      \"adaptiveIcon\": {\n        \"foregroundImage\": \"./assets/images/adaptive-icon.png\",\n        \"backgroundColor\": \"#ffffff\"\n      },\n      \"edgeToEdgeEnabled\": true\n    },\n    \"web\": {\n      \"bundler\": \"metro\",\n      \"output\": \"static\",\n      \"favicon\": \"./assets/images/favicon.png\"\n    },\n    \"plugins\": [\n      \"expo-router\",\n      [\n        \"expo-splash-screen\",\n        {\n          \"image\": \"./assets/images/splash-icon.png\",\n          \"imageWidth\": 200,\n          \"resizeMode\": \"contain\",\n          \"backgroundColor\": \"#ffffff\"\n        }\n      ]\n    ],\n    \"experiments\": {\n      \"typedRoutes\": true\n    }\n  }\n}"
-            }
+            },
             { 
                 type: 'file', 
                 path: 'app/index.tsx', 
@@ -120,7 +120,7 @@ export async function mobileChoose() {
             { 
                 type: 'file', 
                 path: 'app/_layout.tsx', 
-                content:"import { Stack } from \"expo-router\";\n\nexport default function RootLayout() {\n  return <Stack />;\n}";
+                content:"import { Stack } from \"expo-router\";\n\nexport default function RootLayout() {\n  return <Stack />;\n}"
             },
         ];
 
